@@ -20,7 +20,7 @@ a {
 }
 
 .container {
-    max-width: 243px;
+    max-width: 244px;
     margin: 0 auto;
 }
 
@@ -34,13 +34,41 @@ li {
     display: block;
     text-transform: uppercase;
     border: none;
-    width: 93px;
-    height: 23px;
-    color: black;
+    width: 92.08px;
+    height: 23.01px;
+    color: #000;
     background: #fff;
     font-size: 14px;
-    line-height: 20px;
+    line-height: 23.01px;
 text-align: center;
-padding: 93px;
+padding: 92px;
 cursor: pointer;
+}
+
+/* стилизация хедера */
+ 
+.header {
+    display: flex;
+    align-items: center;
+    margin-top: 50px; 
+    margin-bottom: 129px;
+}
+
+.header__list {
+    display: flex;
+    margin-right: auto;
+    align-items: center;
+}
+
+.header__list-item{
+    margin-right: 20px;
+}
+
+.header__contact {
+    display: flex;
+    align-items: center;
+}
+
+.header__contact-iten {
+
 }
