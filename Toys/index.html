@@ -33,12 +33,22 @@
             </div>
         </section>
         <fieldset>
-            <h2>Color</h2>
-            <ol>
+            
+            <ol class="conteiner header">
+                <h2>Cost</h2>
+                <li>
+                    <form action="#"><input class="filter__range" type="range" min="0" max="500" step="1" value="1">
+                        <div class="filter__cost_range">
+                            <p>0</p>
+                            <p>500</p>
+                        </div></form>
+                </li>
+                <h2>Color</h2>
                 <li>
                     <input type="checkbox" id="input-Black" name="Black">
                     <label for="input-Black">Black</label>
                 </li>
+                
                 <li>
                     <input type="checkbox" id="input-Blue" name="Black">
                     <label for="input-Blue">Blue</label>
@@ -51,6 +61,7 @@
                     <input type="checkbox" id="input-White" name="Black">
                     <label for="input-White">White</label>
                 </li>
+              
             </ol>
             <h2>Delivery</h2>
             <ol>
@@ -61,6 +72,21 @@
                 <li>
                     <input type="radio" id="input-Fast shipping " name="B">
                     <label for="input-Fast shipping ">Fast shipping </label>
+                </li>
+            </ol>
+            <ol>
+                <h2>Amount</h2>
+                <li>
+                    <form action="#">
+                        <div class="filter__radio_button">
+                            <input class="input__amount" type="radio" name="Amount" id="amount05">
+                            <label class="label__amount" for="amount05">0-5</label>
+                            <input class="input__amount" type="radio" name="Amount" id="amount1020">
+                            <label class="label__amount" for="amount1020">10-20</label>
+                            <input class="input__amount" type="radio" name="Amount" id="amount2050">
+                            <label class="label__amount" for="amount2050">20-50</label>
+                        </div>
+                    </form>
                 </li>
             </ol>
             
