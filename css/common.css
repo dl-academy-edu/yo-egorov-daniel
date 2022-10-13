@@ -1,0 +1,80 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif; 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #2c3036;
+}
+
+img {
+    display: block;
+    max-width: 100%;  
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 244px;
+    margin: 0 auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.btn {
+    display: block;
+    text-transform: uppercase;
+    border: none;
+    width: 92.08px;
+    height: 23.01px;
+    color: #000;
+    background: #fff;
+    font-size: 14px;
+    line-height: 23.01px;
+text-align: center;
+padding: 92px;
+cursor: pointer;
+}
+
+/* стилизация хедера */
+ 
+.header {
+    display: flex;
+    align-items: center;
+    margin-top: 50px; 
+    margin-bottom: 129px;
+}
+
+.header__list {
+    display: flex;
+    margin-right: auto;
+    align-items: center;
+}
+
+.header__list-item{
+    margin-right: 20px;
+}
+
+.header__contact {
+    display: flex;
+    align-items: center;
+}
+
+.header__contact-iten {
+
+}
