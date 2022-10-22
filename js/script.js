@@ -1,12 +1,11 @@
-const poup = document.querySelector('.poup-form');
+const popup = document.querySelector('.popup-form');
 const buttonOpen = document.querySelector('.btn-js');
 const buttonClose = document.querySelector('.popup-close');
 
 buttonOpen.addEventListener('click', function() {
-   poup.classList.add('open')
+   popup.classList.add('open')
 })
 
 buttonClose.addEventListener('click', function() {
-    poup.classList.remove('open')
+    popup.classList.remove('open')
  })
- 
